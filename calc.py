@@ -13,7 +13,10 @@ import sys
 # a -- addend
 # b -- augend
 def add(a, b):
-    return a + b
+    return a + b         
+# Modulous Division
+def mod (a, b)
+    return a % b
 
 # Subtract function
 # a -- minuend
@@ -65,6 +68,8 @@ while (True):
             print "Difference: ", sub(a, b)
         elif (op == "*"):
             print "Product: ", mult(a, b)
+        elif (op == "%"):
+            print "Modulus: " mod (a, b)
         elif (op == "/"):
             print "Quotient: ", div(a, b)
         else:
